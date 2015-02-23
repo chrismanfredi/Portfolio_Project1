@@ -1,0 +1,96 @@
+/* CSS Document */
+@charset "UTF-8";
+
+body { font-family: Arial; font-size: 12px; }
+
+.chart-container { width: 1100px; border: 1px solid #888; }
+
+.chart-title {background-color: #396172; padding: 5px 0px 10px 15px; margin: 0px; }
+.chart-title h2 { margin: 0px; color: #fff; font-family: Georgia; }
+.chart-title p { margin: 0px; color: #222; }
+
+.chart-content { height: 340px; position: relative; overflow: hidden; margin: 5px 0px 0px 0px; }
+
+.chart-y-axis { width: 50px; height: 300px; position: absolute; top: 0px; left: 0px; }
+.chart-y-axis p { margin: 0px 0px 0px 10px; padding: 0px 0px 0px 5px; width: 35px; position: absolute; border-bottom: 1px solid #ccc; }
+
+.chart-x-axis { height: 50px; position: absolute; top: 300px; left: 50px; }
+.chart-x-axis p { position: absolute; top: 0px; width: 100px; color: #888; text-align: center; }
+.chart-area {
+	width: 1000px;
+	height: 300px;
+	position: absolute;
+	top: 0px;
+	left: 50px;
+	background: #fff url(../images/background.jpg) no-repeat 0px 0px;
+}
+
+.chart-area .chart-bar {
+	position: absolute;
+	bottom: 0px;
+	width: 50px;
+	height: 0px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-repeat: no-repeat;
+	background-position: 50% bottom;
+}
+
+.chart-area .chart-bar.january   { 
+    background-color: green;
+}
+
+.chart-area .chart-bar.feburary   { 
+    background-color: blue;
+}
+
+.chart-area .chart-bar.march   { 
+    background-color: orange;
+}
+
+.chart-area .chart-bar.april   { 
+    background-color: purple;
+}
+
+.chart-area .chart-bar.may   { 
+    background-color: yellow;
+}
+
+.chart-area .chart-bar.june   { 
+    background-color: grey;
+}
+
+.chart-area .chart-bar.july   { 
+    background-color: lightgrey;
+}
+
+.chart-area .chart-bar.august   { 
+    background-color: brown;
+}
+
+.chart-area .chart-bar.september   { 
+    background-color: pink;
+}
+
+.chart-area .chart-bar.october   { 
+    background-color: red;
+}
+
+.chart-area .chart-bar.november   { 
+    background-color: cyan;
+}
+
+.chart-area .chart-bar.december  { 
+    background-color: black;
+}
+
+
+
+.chart-area .chart-bar p { margin: 5px 0px 0px 0px; text-align: center; color: #fff; display: none; }
+
+
+

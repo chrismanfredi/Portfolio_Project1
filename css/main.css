@@ -1,0 +1,193 @@
+html, body {
+    background-color: #ADCED9;
+}
+
+h1 {
+    text-align: center;
+       
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+}
+
+p {
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#logo {
+    width: 150px;
+    height: 80px;
+    margin: 5% 0 0 15%;
+}
+
+#searchbar {
+    width: 100%;
+    margin-top: 7%;
+}
+
+.icons {
+    margin: 2% 0 0 7%;
+}
+
+#topbar {
+    height: 110px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #396172;
+}
+
+nav {
+    text-align: center;
+    margin-top: 3%;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    padding: 0 4% 0 1%;
+}
+
+nav li a {
+    color: black;   
+}
+
+.projectsaccordion ul {
+    list-style-type: square;
+    list-style-position: inside;
+    margin-left: 90px;
+    direction:ltr;
+}
+
+.projectsaccordion {
+    width: 100%;
+    margin: 20% 0 0 0;
+}
+
+.ul{
+    width: 100%;
+    margin-left: 20%;
+    margin: 10 auto;
+    text-align:left;
+}
+
+dt ,dt a, dd {
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.banner { 
+    position: relative; 
+    overflow: auto;
+}
+.banner li { 
+    list-style: none; 
+}
+.banner ul li { 
+    float: left; 
+}
+
+.circleimage {
+    margin: 15% 0 0 17%;  
+    height: 200px
+}
+
+/* Buttons */ 
+
+button#appointment {
+    border: 1px solid #ffffff;
+    background: #2e3d4d;
+    padding: 10px 10px 10px 10px;
+    margin: 10% 35% 0 0;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 21px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    float: right;
+}
+
+button:hover {
+    border-top-color: #344759;
+    background: #344759;
+    color: #ffffff;
+}
+
+button:active {
+    border-top-color: #2e3d4d;
+    background: #2e3d4d;
+}
+
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	margin: 0 auto -155px; 
+}
+footer, .push {
+	height: 155px; 
+}
+
+.footer {
+    float: left;
+    clear: both;
+}
+
+.mytabs {
+    width: 760px;
+    background-color: #396172;
+    padding: 10px;
+    margin-left: 15%;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.tabs {
+    text-align: center;   
+}
+
+.tabs li {
+    list-style: none;
+    display: inline;
+}
+
+.tabs a {
+    padding: 5px 10px;
+    display: inline-block;
+    background: #2e3d4d;
+    color: #fff;
+    text-decoration: none;
+}
+
+.tabs a.active {
+    background-color: #fff;
+    color: #000;
+}
+
+.crackedscreen {
+    margin: 0 15px 0 4px;
+}
+
+#audio {
+    margin-top: 50%;   
+}
+
+.photogallery {
+    margin-left: 23%;   
+}
